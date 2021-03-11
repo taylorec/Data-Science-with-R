@@ -161,7 +161,7 @@ summary(adult.train.logModel)
 fitted.glm <- predict(adult.train.logModel, newdata=adult.test, type='response')
 
 #check model accuracy
-table.acc <- table(adult.test$income, fitted.glm > 0.5)
+table.acc <- table(fitted.glm > 0.5, adult.test$income)
 
 #Accuracy
 (table.acc[1]+table.acc[3])/sum(table.acc)
