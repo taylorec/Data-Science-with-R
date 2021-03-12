@@ -61,7 +61,7 @@ library(randomForest)
 rf.model <- randomForest(Private ~ . , data = train,importance = TRUE)
 rf.model$confusion
 rf.model$importance
-fr.preds <- predict(rf.model,test)
+rf.preds <- predict(rf.model,test)
 rf.CM <- table(rf.preds,test$Private) #confusion matrix
 
 #Accuracy
