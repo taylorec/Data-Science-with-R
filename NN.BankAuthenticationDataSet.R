@@ -1,6 +1,6 @@
 # This project predicts whether or not a Bank Note was authentic
 
-df <- read.csv("C:/Program Files/R/R-Course-HTML-Notes/R-for-Data-Science-and-Machine-Learning/Training Exercises/Machine Learning Projects/CSV files for ML Projects/bank_note_data.csv")
+df <- read.csv("bank_note_data.csv")
 
 head(df)
 str(df)
