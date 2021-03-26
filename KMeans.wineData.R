@@ -1,7 +1,7 @@
 library(ggplot2)
 
-df1 = read.csv("C:/Program Files/R/R-Course-HTML-Notes/R-for-Data-Science-and-Machine-Learning/Training Exercises/Machine Learning Projects/CSV files for ML Projects/winequality-red.csv", sep=';')
-df2 = read.csv("C:/Program Files/R/R-Course-HTML-Notes/R-for-Data-Science-and-Machine-Learning/Training Exercises/Machine Learning Projects/CSV files for ML Projects/winequality-white.csv", sep=';')
+df1 = read.csv("winequality-red.csv", sep=';')
+df2 = read.csv("winequality-white.csv", sep=';')
 
 head(df1)
 head(df2)
