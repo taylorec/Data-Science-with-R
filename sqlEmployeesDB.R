@@ -1,6 +1,6 @@
 library(DBI)
 library(RMySQL)
-myconn <- dbConnect(MySQL(), user='root', password='Sep032016!', dbname='employees')
+myconn <- dbConnect(MySQL(), user='root', password='**********', dbname='employees')
 dbListTables(myconn)
 
 # Descriptions of tables
