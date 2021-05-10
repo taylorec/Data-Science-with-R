@@ -23,7 +23,7 @@ query <- "DESC dept_emp"
 (dept_empTable.desc <- dbGetQuery(myconn, query))
 
 
-# Return number of different deptartment numbers
+# Return number of different department numbers
 query <- "SELECT COUNT(DISTINCT dept_no) FROM dept_emp;"
 (q <- dbGetQuery(myconn, query))
 
